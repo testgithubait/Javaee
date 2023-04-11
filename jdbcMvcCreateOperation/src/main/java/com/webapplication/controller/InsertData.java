@@ -11,6 +11,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.sql.DataSource;
 
 
 @WebServlet("/InsertData")
@@ -20,6 +21,8 @@ public class InsertData extends HttpServlet {
     /**
      * @see HttpServlet#HttpServlet()
      */
+	@Resource(name="jdbc/project")
+	private DataSource dataSource;
     public InsertData() {
         super();
         // TODO Auto-generated constructor stub

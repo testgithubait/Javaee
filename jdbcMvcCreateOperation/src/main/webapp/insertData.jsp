@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<form action = "./InsertData" method="post">
+<form action ="./InsertData" method="post">
 <p>ID:</p>
 <input type="text" name="id"/>
 <br/>
