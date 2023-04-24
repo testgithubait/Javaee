@@ -10,5 +10,10 @@
 <h1> A Web Application in MVC Design Pattern | JDBC | CRUD Operation</h1>
 <a href="<%= request.getContextPath() %>/InsertData?page=insertdata"> CREATE Operation</a>
 <br>
+<a href="<%= request.getContextPath() %>/RetriveData?page=retrivedata">Retrieve data</a>
+<br>
+<a href="<%= request.getContextPath() %>/UpdateData?page=updateData">Update Data</a>
+<br>
 </body>
+
 </html>

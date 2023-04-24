@@ -8,13 +8,8 @@
 </head>
 <body>
 
-<form action ="./InsertData" method="post">
-<p>ID:</p>
-<input type="text" name="id"/>
-<br/>
-<p>String:</p>
-<input type="text" name="name"/>
-<br/><br/><br/>
+<form action ="./UpdateData" method="post">
+<h1>Click on submit to update table</h1>
 <input type="submit"/>
 </form>
 
